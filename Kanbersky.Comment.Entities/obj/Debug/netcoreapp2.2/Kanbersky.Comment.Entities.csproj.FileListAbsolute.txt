@@ -1,0 +1,11 @@
+D:\WorkSpaces\Microservices\Kanbersky.Comment\Kanbersky.Comment.Entities\bin\Debug\netcoreapp2.2\Kanbersky.Comment.Entities.deps.json
+D:\WorkSpaces\Microservices\Kanbersky.Comment\Kanbersky.Comment.Entities\bin\Debug\netcoreapp2.2\Kanbersky.Comment.Entities.dll
+D:\WorkSpaces\Microservices\Kanbersky.Comment\Kanbersky.Comment.Entities\obj\Debug\netcoreapp2.2\Kanbersky.Comment.Entities.AssemblyInfoInputs.cache
+D:\WorkSpaces\Microservices\Kanbersky.Comment\Kanbersky.Comment.Entities\obj\Debug\netcoreapp2.2\Kanbersky.Comment.Entities.AssemblyInfo.cs
+D:\WorkSpaces\Microservices\Kanbersky.Comment\Kanbersky.Comment.Entities\bin\Debug\netcoreapp2.2\Kanbersky.Comment.Entities.pdb
+D:\WorkSpaces\Microservices\Kanbersky.Comment\Kanbersky.Comment.Entities\obj\Debug\netcoreapp2.2\Kanbersky.Comment.Entities.dll
+D:\WorkSpaces\Microservices\Kanbersky.Comment\Kanbersky.Comment.Entities\obj\Debug\netcoreapp2.2\Kanbersky.Comment.Entities.pdb
+D:\WorkSpaces\Microservices\Kanbersky.Comment\Kanbersky.Comment.Entities\bin\Debug\netcoreapp2.2\Kanbersky.Comment.Core.dll
+D:\WorkSpaces\Microservices\Kanbersky.Comment\Kanbersky.Comment.Entities\bin\Debug\netcoreapp2.2\Kanbersky.Comment.Core.pdb
+D:\WorkSpaces\Microservices\Kanbersky.Comment\Kanbersky.Comment.Entities\obj\Debug\netcoreapp2.2\Kanbersky.Comment.Entities.csprojAssemblyReference.cache
+D:\WorkSpaces\Microservices\Kanbersky.Comment\Kanbersky.Comment.Entities\obj\Debug\netcoreapp2.2\Kanbersky.Comment.Entities.csproj.CopyComplete

@@ -1,0 +1,279 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\WorkSpaces\\Microservices\\Kanbersky.Comment\\Kanbersky.Comment.Business\\Kanbersky.Comment.Business.csproj": {}
+  },
+  "projects": {
+    "D:\\WorkSpaces\\Microservices\\Kanbersky.Comment\\Kanbersky.Comment.Business\\Kanbersky.Comment.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\WorkSpaces\\Microservices\\Kanbersky.Comment\\Kanbersky.Comment.Business\\Kanbersky.Comment.Business.csproj",
+        "projectName": "Kanbersky.Comment.Business",
+        "projectPath": "D:\\WorkSpaces\\Microservices\\Kanbersky.Comment\\Kanbersky.Comment.Business\\Kanbersky.Comment.Business.csproj",
+        "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
+        "outputPath": "D:\\WorkSpaces\\Microservices\\Kanbersky.Comment\\Kanbersky.Comment.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\WorkSpaces\\Microservices\\Kanbersky.Comment\\Kanbersky.Comment.DAL\\Kanbersky.Comment.DAL.csproj": {
+                "projectPath": "D:\\WorkSpaces\\Microservices\\Kanbersky.Comment\\Kanbersky.Comment.DAL\\Kanbersky.Comment.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\WorkSpaces\\Microservices\\Kanbersky.Comment\\Kanbersky.Comment.Core\\Kanbersky.Comment.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\WorkSpaces\\Microservices\\Kanbersky.Comment\\Kanbersky.Comment.Core\\Kanbersky.Comment.Core.csproj",
+        "projectName": "Kanbersky.Comment.Core",
+        "projectPath": "D:\\WorkSpaces\\Microservices\\Kanbersky.Comment\\Kanbersky.Comment.Core\\Kanbersky.Comment.Core.csproj",
+        "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
+        "outputPath": "D:\\WorkSpaces\\Microservices\\Kanbersky.Comment\\Kanbersky.Comment.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\WorkSpaces\\Microservices\\Kanbersky.Comment\\Kanbersky.Comment.DAL\\Kanbersky.Comment.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\WorkSpaces\\Microservices\\Kanbersky.Comment\\Kanbersky.Comment.DAL\\Kanbersky.Comment.DAL.csproj",
+        "projectName": "Kanbersky.Comment.DAL",
+        "projectPath": "D:\\WorkSpaces\\Microservices\\Kanbersky.Comment\\Kanbersky.Comment.DAL\\Kanbersky.Comment.DAL.csproj",
+        "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
+        "outputPath": "D:\\WorkSpaces\\Microservices\\Kanbersky.Comment\\Kanbersky.Comment.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\WorkSpaces\\Microservices\\Kanbersky.Comment\\Kanbersky.Comment.Core\\Kanbersky.Comment.Core.csproj": {
+                "projectPath": "D:\\WorkSpaces\\Microservices\\Kanbersky.Comment\\Kanbersky.Comment.Core\\Kanbersky.Comment.Core.csproj"
+              },
+              "D:\\WorkSpaces\\Microservices\\Kanbersky.Comment\\Kanbersky.Comment.Entities\\Kanbersky.Comment.Entities.csproj": {
+                "projectPath": "D:\\WorkSpaces\\Microservices\\Kanbersky.Comment\\Kanbersky.Comment.Entities\\Kanbersky.Comment.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.10.1, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "mongocsharpdriver": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\WorkSpaces\\Microservices\\Kanbersky.Comment\\Kanbersky.Comment.Entities\\Kanbersky.Comment.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\WorkSpaces\\Microservices\\Kanbersky.Comment\\Kanbersky.Comment.Entities\\Kanbersky.Comment.Entities.csproj",
+        "projectName": "Kanbersky.Comment.Entities",
+        "projectPath": "D:\\WorkSpaces\\Microservices\\Kanbersky.Comment\\Kanbersky.Comment.Entities\\Kanbersky.Comment.Entities.csproj",
+        "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
+        "outputPath": "D:\\WorkSpaces\\Microservices\\Kanbersky.Comment\\Kanbersky.Comment.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\WorkSpaces\\Microservices\\Kanbersky.Comment\\Kanbersky.Comment.Core\\Kanbersky.Comment.Core.csproj": {
+                "projectPath": "D:\\WorkSpaces\\Microservices\\Kanbersky.Comment\\Kanbersky.Comment.Core\\Kanbersky.Comment.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.10.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
