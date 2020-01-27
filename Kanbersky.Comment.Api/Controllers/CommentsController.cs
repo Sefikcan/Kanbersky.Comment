@@ -68,6 +68,13 @@ namespace Kanbersky.Comment.Api.Controllers
             }
         }
 
+        [HttpGet]
+        [Route("Throw-Error")]
+        public IActionResult ThrowError()
+        {
+            throw new System.Exception("Hata!");
+        }
+
         #endregion
     }
 }
