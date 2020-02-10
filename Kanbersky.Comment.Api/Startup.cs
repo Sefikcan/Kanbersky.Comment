@@ -3,7 +3,6 @@ using Kanbersky.Comment.Business.Abstract;
 using Kanbersky.Comment.Business.Concrete;
 using Kanbersky.Comment.Business.Mappings.AutoMapper;
 using Kanbersky.Comment.Core.Helpers.Models;
-using Kanbersky.Comment.DAL.Concrete.MongoDB.Context;
 using Kanbersky.Comment.DAL.Concrete.MongoDB.GenericRepository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -11,13 +10,34 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Swashbuckle.AspNetCore.Swagger;
+using Microsoft.Extensions.Logging;
+using Serilog;
+using Serilog.Sinks.Elasticsearch;
+using System;
 
 namespace Kanbersky.Comment.Api
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        public Startup(IConfiguration configuration, IHostingEnvironment hostingEnvironment)
         {
+            var builder = new ConfigurationBuilder().SetBasePath(hostingEnvironment.ContentRootPath)
+                .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+                .AddJsonFile($"appsettings.{hostingEnvironment.EnvironmentName}.json", reloadOnChange: true, optional: true)
+                .AddEnvironmentVariables();
+            
+            Configuration = builder.Build();
+
+            var elasticUri = Configuration["ElasticConfiguration:Uri"];
+
+            Log.Logger = new LoggerConfiguration()
+                .Enrich.FromLogContext()
+                .WriteTo.Elasticsearch(new ElasticsearchSinkOptions(new Uri(elasticUri))
+                {
+                    AutoRegisterTemplate = true,
+                })
+            .CreateLogger();
+
             Configuration = configuration;
         }
 
@@ -54,7 +74,7 @@ namespace Kanbersky.Comment.Api
             });
         }
 
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
             if (env.IsDevelopment())
             {
@@ -72,6 +92,8 @@ namespace Kanbersky.Comment.Api
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Kanbersky.Comment Microservice V1");
             });
             app.UseMvc();
+
+            loggerFactory.AddSerilog();
         }
     }
 }
