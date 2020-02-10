@@ -1,6 +1,7 @@
 ﻿using Kanbersky.Comment.Business.Abstract;
 using Kanbersky.Comment.Business.DTO.Request;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using System.Threading.Tasks;
 
 namespace Kanbersky.Comment.Api.Controllers
@@ -12,14 +13,17 @@ namespace Kanbersky.Comment.Api.Controllers
         #region fields
 
         private readonly ICommentService _commentService;
+        private readonly ILogger<CommentsController> _logger;
 
         #endregion
 
         #region ctor
 
-        public CommentsController(ICommentService commentService)
+        public CommentsController(ICommentService commentService,
+            ILogger<CommentsController> logger)
         {
             _commentService = commentService;
+            _logger = logger;
         }
 
         #endregion
